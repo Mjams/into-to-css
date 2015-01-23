@@ -3,7 +3,7 @@ html{
   color: #fff;
   font-family: 'Open Sans', sans-serif;}
 
-  h1 {
+  h1, h2 {
     color: limegreen;
     font-weight: normal;
     font-size: 5rem;
@@ -14,11 +14,13 @@ html{
 
   p {
     font-style: italic;
-    text-decoration: line-through;
     text-align: center;
     }
 
   ol {
-    list-style-type: upper-roman;
+    list-style-type: none;
+    }
+
+  a:hover {color: black;
 
   }
